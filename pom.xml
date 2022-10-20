@@ -26,6 +26,10 @@
 		<sonar.password>November151993@</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		mvn sonar:sonar \
+  -Dsonar.projectKey=visadebit_card \
+  -Dsonar.host.url=http://3.84.253.229:9000 \
+  -Dsonar.login=48cd57fc69a688a7b04d4eb6f73d2d46f86aeb7a
 
 	</properties>
 
